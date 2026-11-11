@@ -1,0 +1,24 @@
+From: Neha Kapoor <neha@desertshield.example>
+Subject: Brightside Dental Group - new practice - Phoenix AZ
+
+New business submission for a newly opened dental clinic. Owner-dentist has 12 years of clinical experience but the practice itself opened last year.
+
+NAMED INSURED: Brightside Dental Group PLLC
+LOCATION: 2140 E Camelback Rd, Phoenix, AZ 85016
+CLASS / OCCUPANCY: Medical office - dental practice
+YEARS IN BUSINESS: 1
+ANNUAL REVENUE: $1,350,000
+EMPLOYEES: 9
+CONSTRUCTION: Masonry non-combustible
+YEAR BUILT: 2019
+STORIES: 2
+SQUARE FOOTAGE: 7,200
+SPRINKLERED: Yes
+PROTECTION CLASS: 1
+BUILDING VALUE: $2,100,000
+CONTENTS VALUE: $650,000
+BUSINESS INCOME: $400,000
+EFFECTIVE DATE: {{date+75}}
+PRIOR CARRIER: Copperstate Mutual
+
+No losses since opening.

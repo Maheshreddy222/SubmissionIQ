@@ -1,0 +1,18 @@
+/* SubmissionIQ shared design tokens: used by the landing page and the app. Dark is the default. */
+:root{
+ --bg:#060913;--bg2:#0d1124;--panel:rgba(255,255,255,.045);--panel2:rgba(255,255,255,.075);--line:rgba(255,255,255,.09);--line2:rgba(255,255,255,.18);
+ --ink:#eef0fb;--mute:#9aa3c2;--a:#6366f1;--b:#a855f7;--c:#22d3ee;
+ --ok:#34d399;--okbg:rgba(52,211,153,.16);--warn:#fbbf24;--warnbg:rgba(251,191,36,.16);--bad:#f87171;--badbg:rgba(248,113,113,.16);--info:#60a5fa;--infobg:rgba(96,165,250,.16);
+ --accent-ink:#c7d2fe;--kick:#a5b4fc;--navbg:rgba(6,9,19,.78);--cardbg:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.02));--mockbg:linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,.02));
+ --glow:1;--shadow:0 1px 2px rgba(0,0,0,.3),0 12px 40px rgba(0,0,0,.25);--radius:18px;
+ /* compatibility names used by the app */
+ --card:var(--panel);--brand:var(--a);--brand2:var(--b);--green:var(--ok);--amber:var(--warn);--red:var(--bad);--blue:var(--info);
+ --greenbg:var(--okbg);--amberbg:var(--warnbg);--redbg:var(--badbg);--bluebg:var(--infobg);
+ color-scheme:dark}
+:root[data-theme=light]{
+ --bg:#f4f5fc;--bg2:#ffffff;--panel:#ffffff;--panel2:#eef0f9;--line:#e2e5f1;--line2:#c9cfe4;--ink:#14182b;--mute:#5b647f;
+ --ok:#0f7a56;--okbg:#dcf5ea;--warn:#9a5b06;--warnbg:#fdf0d5;--bad:#b42318;--badbg:#fde4e1;--info:#175cd3;--infobg:#dde9fd;
+ --accent-ink:#4338ca;--kick:#4f46e5;--navbg:rgba(244,245,252,.85);--cardbg:#ffffff;--mockbg:#ffffff;--glow:.5;
+ --shadow:0 1px 2px rgba(16,24,40,.05),0 10px 30px rgba(16,24,40,.07);color-scheme:light}
+html{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.lk-w{display:inline}.lk-d{display:none}:root[data-theme=light] .lk-w{display:none}:root[data-theme=light] .lk-d{display:inline}

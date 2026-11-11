@@ -1,0 +1,20 @@
+{
+  "version": "2026.1",
+  "as_of": "2026-01-01",
+  "note": "ILLUSTRATIVE screening benchmarks in USD per sq ft. This is NOT a certified valuation. Replace with your carrier's valuation source (for example Marshall & Swift / CoreLogic) before relying on it.",
+  "occupancy_ranges": [
+    {"match":["hotel","motel"],"low":220,"high":380}, {"match":["restaurant","bakery","cafe","tavern"],"low":250,"high":450},
+    {"match":["medical office","dental","clinic"],"low":250,"high":420}, {"match":["apartment"],"low":160,"high":280},
+    {"match":["office","professional"],"low":180,"high":320}, {"match":["retail","strip center","shopping center"],"low":140,"high":260},
+    {"match":["auto repair","garage"],"low":130,"high":240}, {"match":["warehouse","distribution","self storage","self-storage","cold storage"],"low":90,"high":170},
+    {"match":["manufactur","light assembly","plastics","woodworking","pallet","sawmill"],"low":110,"high":220}, {"match":["vacant"],"low":100,"high":200}
+  ],
+  "default": {"low":120,"high":260},
+  "construction_factors": [
+    {"match":["fire resistive","fire-resistive"],"factor":1.25}, {"match":["masonry non-combustible","masonry noncombustible"],"factor":1.05},
+    {"match":["non-combustible","noncombustible","tilt-up"],"factor":1.0}, {"match":["joisted masonry"],"factor":1.0}, {"match":["frame","wood"],"factor":0.9}
+  ],
+  "region_factors": {"TX":0.95,"OK":0.9,"LA":0.97,"AR":0.9,"MS":0.9,"AL":0.92,"GA":0.95,"TN":0.95,"NC":0.97,"SC":0.95,"VA":1.0,"OH":0.97,"IN":0.95,"IL":1.05,"MO":0.95,"KS":0.93,"AZ":1.0,"NM":0.95,"CO":1.08,"FL":1.05},
+  "default_region": 1.0,
+  "thresholds": {"undervalued_ratio_to_low": 0.75, "unusually_high_ratio_to_high": 1.35}
+}

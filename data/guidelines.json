@@ -1,0 +1,95 @@
+{
+  "carrier": "Sample Mutual - Commercial Property Underwriting Guidelines",
+  "version": "2026.1",
+  "note": "Illustrative guidelines for demonstration. Edit this file to change appetite; no code changes needed.",
+  "states_admitted": [
+    "TX",
+    "OK",
+    "LA",
+    "AR",
+    "MS",
+    "AL",
+    "GA",
+    "TN",
+    "NC",
+    "SC",
+    "VA",
+    "OH",
+    "IN",
+    "IL",
+    "MO",
+    "KS",
+    "AZ",
+    "NM",
+    "CO"
+  ],
+  "classes": {
+    "preferred": [
+      "office",
+      "professional",
+      "medical office",
+      "retail",
+      "self storage",
+      "self-storage",
+      "wholesale",
+      "apartment",
+      "light assembly"
+    ],
+    "referral": [
+      "restaurant",
+      "bakery",
+      "bar ",
+      "tavern",
+      "auto repair",
+      "garage",
+      "woodworking",
+      "plastics",
+      "cold storage",
+      "food processing",
+      "lumber",
+      "dry clean"
+    ],
+    "prohibited": [
+      "fireworks",
+      "explosive",
+      "cannabis",
+      "vacant",
+      "demolition",
+      "tire recycl",
+      "hazardous waste",
+      "sawmill",
+      "pallet",
+      "refinery"
+    ]
+  },
+  "limits": {
+    "uw_authority_tiv": 10000000,
+    "max_tiv": 25000000,
+    "sprinkler_required_above_tiv": 5000000
+  },
+  "construction": {
+    "frame_max_stories": 3
+  },
+  "building_age": {
+    "refer_before_year": 1960
+  },
+  "losses": {
+    "years": 5,
+    "refer_count": 4,
+    "refer_single_loss": 250000,
+    "decline_total_paid": 750000
+  },
+  "experience": {
+    "min_years_in_business": 2
+  },
+  "protection_class": {
+    "refer_at_or_above": 9
+  },
+  "valuation": {
+    "refer_if_undervalued": true,
+    "refer_if_unusually_high": true
+  },
+  "flood": {
+    "refer_in_special_flood_hazard_area": true
+  }
+}

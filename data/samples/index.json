@@ -1,0 +1,143 @@
+[
+ {
+  "id": "01-lone-star-office-park.txt",
+  "title": "Lone Star Office Park",
+  "scenario": "Clean submission",
+  "challenge": "Everything provided. Straight-through quote.",
+  "featured": true,
+  "files": [
+   "01-lone-star-office-park.txt"
+  ]
+ },
+ {
+  "id": "02-riverside-bakery-cafe.txt",
+  "title": "Riverside Bakery & Cafe",
+  "scenario": "Rushed broker email",
+  "challenge": "Year built, sprinklers, losses and effective date are missing.",
+  "featured": true,
+  "files": [
+   "02-riverside-bakery-cafe.txt"
+  ]
+ },
+ {
+  "id": "03-heartland-auto-repair.txt",
+  "title": "Heartland Auto Repair & Tire",
+  "scenario": "Referral class",
+  "challenge": "Everything checks out except the class needs senior review.",
+  "featured": true,
+  "files": [
+   "03-heartland-auto-repair.txt"
+  ]
+ },
+ {
+  "id": "04-pinecrest-pallet-works.txt",
+  "title": "Pinecrest Pallet Works",
+  "scenario": "Prohibited class",
+  "challenge": "Pallet manufacturing with fire losses and no sprinklers.",
+  "featured": true,
+  "files": [
+   "04-pinecrest-pallet-works.txt"
+  ]
+ },
+ {
+  "id": "05-casa-verde-tacos.txt",
+  "title": "Casa Verde Tacos",
+  "scenario": "Forwarded prose email",
+  "challenge": "No form. Facts are buried in sentences and values use shorthand like $1.1M and $300k.",
+  "files": [
+   "05-casa-verde-tacos.txt"
+  ]
+ },
+ {
+  "id": "06-palm-harbor-suites.txt",
+  "title": "Palm Harbor Suites",
+  "scenario": "ACORD-style, out of state",
+  "challenge": "Different field names, and Florida is not an admitted state.",
+  "files": [
+   "06-palm-harbor-suites.txt"
+  ]
+ },
+ {
+  "id": "07-peachtree-distribution.txt",
+  "title": "Peachtree Distribution Center",
+  "scenario": "Over authority",
+  "challenge": "Strong risk on paper, but TIV is over authority and the building value looks low for 210,000 sq ft.",
+  "files": [
+   "07-peachtree-distribution.txt"
+  ]
+ },
+ {
+  "id": "08-brookside-vacant-building.txt",
+  "title": "Brookside Holdings",
+  "scenario": "Hidden vacancy",
+  "challenge": "The vacancy is stated in the occupancy line, and contents are $0.",
+  "files": [
+   "08-brookside-vacant-building.txt"
+  ]
+ },
+ {
+  "id": "09-brightside-dental.txt",
+  "title": "Brightside Dental Group",
+  "scenario": "New venture",
+  "challenge": "Preferred class, but the business is only 1 year old.",
+  "files": [
+   "09-brightside-dental.txt"
+  ]
+ },
+ {
+  "id": "10-bluebonnet-apartments.txt",
+  "title": "Bluebonnet Apartments",
+  "scenario": "Possible underinsurance",
+  "challenge": "Building value is about $14 per sq ft, far below the screening range, so valuation should trigger a referral.",
+  "files": [
+   "10-bluebonnet-apartments.txt"
+  ]
+ },
+ {
+  "id": "11-magnolia-plaza.txt",
+  "title": "Magnolia Plaza",
+  "scenario": "Loss frequency",
+  "challenge": "Five small losses, none large. Frequency alone triggers a referral.",
+  "files": [
+   "11-magnolia-plaza.txt"
+  ]
+ },
+ {
+  "id": "12-gateway-industrial-campus.txt",
+  "title": "Gateway Industrial Campus",
+  "scenario": "Over capacity",
+  "challenge": "Total insured value is above the carrier's maximum capacity.",
+  "files": [
+   "12-gateway-industrial-campus.txt"
+  ]
+ },
+ {
+  "id": "13-carolina-retail-group",
+  "title": "Carolina Retail Group",
+  "scenario": "Multi-document, 5 locations",
+  "challenge": "Email + schedule of values + loss runs. The SOV total does not match its rows, and one restaurant pad is undervalued.",
+  "files": [
+   "13-carolina-retail-email.txt",
+   "13-carolina-retail-sov.csv",
+   "13-carolina-retail-loss-runs.csv"
+  ]
+ },
+ {
+  "id": "14-scanned-acord-application.png",
+  "title": "Summit Ridge Self Storage",
+  "scenario": "Scanned form (needs OCR)",
+  "challenge": "A skewed, noisy scan of an ACORD form. Needs the Gemini key to read it.",
+  "files": [
+   "14-scanned-acord-application.png"
+  ]
+ },
+ {
+  "id": "15-acord-140-application.pdf",
+  "title": "Copper Canyon Brewing Co",
+  "scenario": "Multi-page ACORD PDF",
+  "challenge": "Two-page ACORD form. Each value is traced to its page, and the 1948 building and taproom class need review.",
+  "files": [
+   "15-acord-140-application.pdf"
+  ]
+ }
+]

@@ -1,0 +1,24 @@
+From: Samir Patel <samir@lonestarhabitational.example>
+Subject: Bluebonnet Apartments - 24 units - Austin TX
+
+Habitational submission, long-term owner. Please quote building, owner contents and rents.
+
+NAMED INSURED: Bluebonnet Apartments LP
+LOCATION: 910 Oltorf St, Austin, TX 78704
+CLASS / OCCUPANCY: Apartment complex, 24 units
+YEARS IN BUSINESS: 22
+ANNUAL REVENUE: $430,000
+CONSTRUCTION: Joisted masonry
+YEAR BUILT: 1985
+STORIES: 2
+SQUARE FOOTAGE: 28,000
+SPRINKLERED: Yes
+PROTECTION CLASS: 2
+BUILDING VALUE: $380,000
+CONTENTS VALUE: $60,000
+RENTAL INCOME: $420,000
+EFFECTIVE DATE: {{date+27}}
+PRIOR CARRIER: Hill Country Mutual
+
+LOSS HISTORY:
+2025 | Hail damage, roofs | $31,000 | Closed

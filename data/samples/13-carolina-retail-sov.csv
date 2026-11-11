@@ -1,0 +1,7 @@
+Loc #,Location Name,Address,City,State,Zip,Occupancy,Construction,Year Built,Stories,Sq Ft,Sprinklered,Protection Class,Building Value,Contents Value,Business Income,TIV
+1,Harbor Point Plaza,1200 Broad River Rd,Columbia,SC,29210,Retail strip center,Masonry non-combustible,2004,1,24000,Yes,3,"3,600,000",350000,500000,"4,450,000"
+2,Flagship Store,4500 South Blvd,Charlotte,NC,28209,Retail department store,Masonry non-combustible,2012,2,32000,Yes,2,"5,600,000",900000,1100000,"7,600,000"
+3,Pad B Restaurant,88 Pelham Rd,Greenville,SC,29615,Restaurant,Frame,1996,1,4200,No,4,450000,300000,450000,"1,200,000"
+4,Distribution Annex,310 Port Wentworth Rd,Savannah,GA,31407,Warehouse,Joisted masonry,1989,1,40000,Yes,3,"3,400,000","1,800,000",200000,"5,400,000"
+5,Corporate Office,2200 Glenwood Ave,Raleigh,NC,27608,Office,Masonry non-combustible,2015,3,18000,Yes,2,"3,900,000",450000,300000,"4,650,000"
+Total,,,,,,,,,,,,,"16,950,000","3,800,000","2,550,000","24,300,000"

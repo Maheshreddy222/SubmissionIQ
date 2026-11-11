@@ -1,0 +1,16 @@
+From: Jenna Alvarez <jenna@gulfstreamins.example>
+To: newbusiness@samplemutual.example
+Subject: Fwd: quote request - Casa Verde Tacos (Houston)
+
+Hi all - forwarding a new one from my client. Casa Verde Tacos is a family-run restaurant, in business 12 years. Location is 5820 Richmond Ave, Houston, TX 77057. They want to move the property from their current carrier for {{date+12}}.
+
+The building is a one-story joisted masonry building, built in 1998, about 4,200 sq ft. No sprinklers but they have an Ansul hood suppression system, serviced every 6 months. Protection class is 2.
+
+Values: building $1.1M, contents $300k, and business income $450k for 12 months. Annual sales are around $1.9M and they have 22 employees.
+
+Losses last 5 years:
+2024 - Grease fire in kitchen exhaust - $52,000 - closed
+2022 - Water damage from dishwasher line - $14,500 - closed
+
+Current carrier is Lonestar Select. Let me know what else you need!
+Jenna

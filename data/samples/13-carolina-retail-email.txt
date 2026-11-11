@@ -1,0 +1,15 @@
+From: Marcus Whitfield <marcus@carolinacommercial.example>
+Subject: Carolina Retail Group - 5 locations - property remarketing
+
+Hi team - sending a multi-location retail account. The schedule of values and 5-year loss runs are attached as separate files. Key details below.
+
+NAMED INSURED: Carolina Retail Group Inc
+YEARS IN BUSINESS: 23
+ANNUAL REVENUE: $41,000,000
+EMPLOYEES: 180
+EFFECTIVE DATE: {{date+35}}
+PRIOR CARRIER: Palmetto Mutual
+COVERAGES REQUESTED: Building, Contents, Business Income
+
+The restaurant pad at Greenville has been a headache for the incumbent. Everything else is steady. Happy to jump on a call.
+Marcus

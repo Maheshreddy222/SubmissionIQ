@@ -1,0 +1,29 @@
+From: Tom Eberle <tom@eberlecommercial.example>
+Subject: Pinecrest Pallet Works - Property Remarketing
+
+Incumbent is non-renewing after the fire. Looking for a new home for this account.
+
+NAMED INSURED: Pinecrest Pallet Works LLC
+LOCATION: 77 Industrial Pkwy, Tupelo, MS 38801
+CLASS / OCCUPANCY: Wood pallet manufacturing and repair
+YEARS IN BUSINESS: 19
+ANNUAL REVENUE: $6,200,000
+EMPLOYEES: 41
+CONSTRUCTION: Wood frame
+YEAR BUILT: 1972
+STORIES: 1
+SQUARE FOOTAGE: 38,000
+SPRINKLERED: No
+PROTECTION CLASS: 5
+BUILDING VALUE: $3,400,000
+CONTENTS VALUE: $4,100,000
+BUSINESS INCOME: $1,500,000
+EFFECTIVE DATE: {{date+21}}
+PRIOR CARRIER: Magnolia Casualty
+COVERAGES REQUESTED: Building, Contents, Business Income
+
+LOSS HISTORY:
+2022 | Dust collector fire | $410,000 | Closed
+2023 | Forklift collision, wall damage | $28,000 | Closed
+2024 | Roof leak | $17,500 | Closed
+2025 | Electrical fire, drying kiln | $265,000 | Open

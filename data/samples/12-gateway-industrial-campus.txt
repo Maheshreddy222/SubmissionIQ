@@ -1,0 +1,25 @@
+From: Helen Marsh <helen@greatlakescommercial.example>
+Subject: Gateway Industrial Campus - 4 buildings - Columbus OH
+
+Large account, all four buildings under one policy. SOV attached; totals below.
+
+NAMED INSURED: Gateway Industrial Partners LLC
+LOCATION: 5100 Alum Creek Dr, Columbus, OH 43207
+CLASS / OCCUPANCY: Light assembly and warehouse campus, 4 buildings
+YEARS IN BUSINESS: 20
+ANNUAL REVENUE: $48,000,000
+EMPLOYEES: 210
+CONSTRUCTION: Masonry non-combustible
+YEAR BUILT: 2011
+STORIES: 1
+SQUARE FOOTAGE: 410,000
+SPRINKLERED: Yes
+PROTECTION CLASS: 3
+BUILDING VALUE: $22,500,000
+CONTENTS VALUE: $6,400,000
+BUSINESS INCOME: $2,900,000
+EFFECTIVE DATE: {{date+90}}
+PRIOR CARRIER: Buckeye Industrial Mutual
+
+LOSS HISTORY:
+2024 | Forklift collision, dock door | $21,000 | Closed

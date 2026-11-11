@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 64" role="img" aria-label="SubmissionIQ">
+  <defs>
+    <linearGradient id="g" x1="6" y1="4" x2="58" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#4338ca"/><stop offset=".55" stop-color="#7c3aed"/><stop offset="1" stop-color="#c026d3"/></linearGradient>
+    <linearGradient id="s" x1="36" y1="35" x2="55" y2="55" gradientUnits="userSpaceOnUse"><stop stop-color="#fde68a"/><stop offset="1" stop-color="#fb923c"/></linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#g)"/>
+  <path d="M19 13h18l10 10v26a4 4 0 0 1-4 4H19a4 4 0 0 1-4-4V17a4 4 0 0 1 4-4z" fill="#fff"/>
+  <path d="M37 13v6a4 4 0 0 0 4 4h6z" fill="#c7d2fe"/>
+  <rect x="20" y="29" width="15" height="3.2" rx="1.6" fill="#a5b4fc"/>
+  <rect x="20" y="36" width="10" height="3.2" rx="1.6" fill="#c7d2fe"/>
+  <path d="M46 31 C47 39 50 42 58 44 C50 46 47 49 46 57 C45 49 42 46 34 44 C42 42 45 39 46 31 Z" fill="url(#g)" stroke="url(#g)" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M46 31 C47 39 50 42 58 44 C50 46 47 49 46 57 C45 49 42 46 34 44 C42 42 45 39 46 31 Z" fill="url(#s)"/>
+<defs><linearGradient id="t" x1="0" x2="1"><stop stop-color="#6366f1"/><stop offset="1" stop-color="#c026d3"/></linearGradient></defs>
+<text x="78" y="43" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="700" letter-spacing="-0.5" fill="#ffffff">Submission<tspan fill="url(#t)" font-weight="800">IQ</tspan></text>
+</svg>

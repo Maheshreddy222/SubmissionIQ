@@ -1,0 +1,27 @@
+From: Priya Raman <priya@prairieinsure.example>
+Subject: Heartland Auto Repair & Tire - New Business Property Submission
+
+Attached details for a Tulsa auto repair shop. Long-standing family business, clean operation.
+
+NAMED INSURED: Heartland Auto Repair & Tire Inc
+LOCATION: 2250 S Memorial Dr, Tulsa, OK 74129
+CLASS / OCCUPANCY: Auto repair garage and tire sales
+YEARS IN BUSINESS: 27
+ANNUAL REVENUE: $2,100,000
+EMPLOYEES: 12
+CONSTRUCTION: Joisted masonry
+YEAR BUILT: 1965
+STORIES: 1
+SQUARE FOOTAGE: 9,500
+SPRINKLERED: No
+PROTECTION CLASS: 4
+BUILDING VALUE: $1,850,000
+CONTENTS VALUE: $900,000
+BUSINESS INCOME: $350,000
+EFFECTIVE DATE: {{date+30}}
+PRIOR CARRIER: Great Plains Mutual
+COVERAGES REQUESTED: Building, Contents, Business Income
+
+LOSS HISTORY:
+2023 | Hail damage to roof | $64,000 | Closed
+2025 | Theft of tools and equipment | $22,000 | Closed

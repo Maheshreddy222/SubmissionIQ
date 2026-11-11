@@ -1,0 +1,27 @@
+{
+  "version": "2026.1",
+  "note": "Illustrative, configurable property risk model. Higher score = higher risk. Edit points and thresholds to match your underwriting view.",
+  "bands": [ {"name":"Low","max":24}, {"name":"Moderate","max":44}, {"name":"Elevated","max":64}, {"name":"High","max":100} ],
+  "factors": {
+    "construction": { "max": 18, "unknown": 9, "rules": [
+      {"match":["fire resistive","fire-resistive"],"points":2}, {"match":["masonry non-combustible","masonry noncombustible"],"points":5},
+      {"match":["non-combustible","noncombustible","tilt-up"],"points":6}, {"match":["joisted masonry"],"points":11}, {"match":["frame","wood"],"points":18} ] },
+    "age": { "max": 8, "unknown": 4, "rules": [ {"before":1950,"points":8}, {"before":1970,"points":6}, {"before":1990,"points":4}, {"before":2005,"points":2}, {"before":9999,"points":1} ] },
+    "protection": { "max": 20, "sprinklered": 2, "unsprinklered": 14, "unsprinklered_large_tiv": 16, "large_tiv": 5000000, "sprinkler_unknown": 9,
+      "ppc": [ {"min":9,"points":4}, {"min":7,"points":3}, {"min":5,"points":2}, {"min":3,"points":1}, {"min":0,"points":0} ], "ppc_unknown": 1 },
+    "occupancy": { "max": 18, "default": 8, "rules": [
+      {"match":["pallet","sawmill","fireworks","refinery","cannabis","tire recycl","hazardous waste","explosive"],"points":18},
+      {"match":["vacant"],"points":17},
+      {"match":["plastics","woodworking","cold storage","food processing","lumber","dry clean"],"points":15},
+      {"match":["restaurant","bakery","cafe","tavern","bar "],"points":14}, {"match":["auto repair","garage"],"points":14},
+      {"match":["manufactur","light assembly"],"points":11}, {"match":["warehouse","distribution"],"points":9}, {"match":["hotel","motel"],"points":8},
+      {"match":["apartment"],"points":7}, {"match":["retail","strip center","shopping center"],"points":6}, {"match":["school","church"],"points":5},
+      {"match":["office","professional","medical office","dental","clinic","self storage","self-storage"],"points":4} ] },
+    "losses": { "max": 20, "unknown": 10, "per_loss": 2.5, "frequency_cap": 8,
+      "severity": [ {"min":250000,"points":8}, {"min":100000,"points":6}, {"min":50000,"points":4}, {"min":20000,"points":2} ],
+      "hazard_causes": ["fire","explosion","smoke","electrical","arson","kiln"], "hazard_cause_points": 4, "open_claim_points": 2 },
+    "exposure": { "max": 4, "rules": [ {"min":10000000,"points":4}, {"min":5000000,"points":3}, {"min":2000000,"points":2}, {"min":0,"points":1} ] },
+    "location": { "max": 8, "flood": { "high": 8, "moderate": 4, "minimal": 1 } },
+    "valuation": { "max": 4, "undervalued": 4, "below_range": 2, "unusually_high": 2 }
+  }
+}

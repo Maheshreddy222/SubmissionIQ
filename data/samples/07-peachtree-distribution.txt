@@ -1,0 +1,15 @@
+From: Alicia Brandt <alicia@southeastcommercial.example>
+Subject: Peachtree Distribution Center - new business - property
+
+Team, new submission below. Great account, in business since 2009. Loss runs are attached; summary here.
+
+Insured: Peachtree Distribution Center Inc
+Location: 3300 Fulton Industrial Blvd, Atlanta, GA 30336
+Operations: Warehouse and 3PL distribution of consumer goods (no hazardous materials)
+
+Built 2016, 210,000 sq ft, single story, tilt-up concrete (masonry non-combustible), ESFR sprinklers throughout. PPC 3. About 60 employees and annual revenue of $24M.
+
+Values: Building $9.8M, contents (inventory) $3.6M, BI $1.1M. Effective {{date+38}}.
+Expiring carrier: Southern Harvest Mutual
+
+No losses in the last 5 years.

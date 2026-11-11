@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SubmissionIQ - Agentic AI for commercial property underwriting</title>
+<meta name="description" content="SubmissionIQ turns messy broker submissions into decision-ready underwriting files in seconds. Rules decide, AI explains, humans approve.">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="theme.css">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem("siq-theme")||"dark"}catch(e){document.documentElement.dataset.theme="dark"}</script>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}.ic{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px}section{padding:96px 0;position:relative}
+nav.top{position:fixed;top:0;left:0;right:0;z-index:20;transition:.25s}nav.top.sc{background:var(--navbg);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:30px;height:68px}nav img.lk,footer img{height:34px}footer img{height:30px}.tbtn{border:1px solid var(--line);background:var(--panel);color:var(--ink);width:40px;height:40px;border-radius:12px;cursor:pointer;display:grid;place-items:center;transition:.2s}.tbtn:hover{border-color:var(--line2);transform:translateY(-2px)}nav .links{display:flex;gap:26px;flex:1;justify-content:center;font-size:14.5px;color:var(--mute);font-weight:500}nav .links a:hover{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:12px;font-weight:700;font-size:15px;border:1px solid var(--line);color:var(--ink);background:var(--panel);transition:.2s;cursor:pointer}.btn:hover{transform:translateY(-2px);border-color:rgba(255,255,255,.25)}
+.btn.pri{color:#fff;background:linear-gradient(135deg,var(--a),var(--b));border:0;box-shadow:0 10px 30px rgba(99,102,241,.45)}.btn.pri:hover{box-shadow:0 14px 40px rgba(139,92,246,.6)}.btn.sm{padding:9px 18px;font-size:14px}
+.hero{padding:150px 0 70px;text-align:center;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;opacity:var(--glow);background:radial-gradient(60% 50% at 50% 0%,rgba(99,102,241,.38),transparent 70%),radial-gradient(40% 40% at 85% 20%,rgba(168,85,247,.25),transparent 70%),radial-gradient(35% 35% at 12% 30%,rgba(34,211,238,.16),transparent 70%)}
+.hero:after{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:56px 56px;mask-image:radial-gradient(70% 60% at 50% 25%,#000,transparent);-webkit-mask-image:radial-gradient(70% 60% at 50% 25%,#000,transparent);opacity:.55}
+.hero .wrap{position:relative;z-index:1}.pill{display:inline-flex;align-items:center;gap:8px;padding:7px 15px;border-radius:99px;border:1px solid var(--line);background:var(--panel);font-size:13px;font-weight:600;color:var(--accent-ink)}.pill i{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 0 4px rgba(52,211,153,.2)}
+h1{font-size:clamp(38px,6vw,68px);line-height:1.05;letter-spacing:-.035em;margin:22px auto 20px;max-width:860px;font-weight:800}.grad{background:linear-gradient(120deg,#818cf8,#c084fc 45%,#22d3ee);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{font-size:19px;color:var(--mute);max-width:660px;margin:0 auto 32px}.cta{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}.chips{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:34px;color:var(--mute);font-size:13px;font-weight:600}.chips span{padding:5px 13px;border:1px dashed var(--line);border-radius:99px}
+.mock{margin:64px auto 0;max-width:980px;border:1px solid var(--line);border-radius:20px;background:var(--mockbg);box-shadow:0 40px 120px rgba(79,70,229,.35);text-align:left;overflow:hidden;position:relative}
+.mbar{display:flex;gap:7px;align-items:center;padding:13px 18px;border-bottom:1px solid var(--line);font-size:12.5px;color:var(--mute)}.mbar i{width:11px;height:11px;border-radius:50%;background:var(--line2)}.mbar span{margin-left:10px}
+.mbody{display:grid;grid-template-columns:.9fr 1.1fr;gap:0}.msteps{padding:22px;border-right:1px solid var(--line)}.mres{padding:22px}
+.st{display:flex;gap:12px;align-items:center;padding:11px 0;border-bottom:1px solid var(--line);opacity:0;animation:up .5s forwards;animation-delay:var(--d)}.st:last-child{border:0}
+.st b{font-size:14px;display:block}.st small{color:var(--mute);font-size:12px}.ok{width:24px;height:24px;border-radius:50%;background:var(--okbg);color:var(--ok);display:grid;place-items:center}.ok .ic{width:14px;height:14px;stroke-width:2.6}
+.ban{color:#fff;border-radius:14px;padding:18px;background:linear-gradient(135deg,#b86e0a,#e09a21);display:flex;justify-content:space-between;align-items:center;opacity:0;animation:up .6s 4s forwards}.ban small{font-weight:800;letter-spacing:.08em;opacity:.85;font-size:11px}.ban h4{margin:0;font-size:28px}
+.sc2{width:58px;height:58px;border-radius:50%;background:conic-gradient(#fff 82%,rgba(255,255,255,.28) 0);display:grid;place-items:center}.sc2 span{width:44px;height:44px;border-radius:50%;background:rgba(0,0,0,.28);display:grid;place-items:center;font-weight:800}
+.chk{display:grid;gap:8px;margin-top:14px}.chk div{display:flex;gap:10px;align-items:center;font-size:13px;padding:9px 12px;border-radius:10px;background:var(--panel);opacity:0;animation:up .5s forwards}.chk em{font-style:normal;font-size:10.5px;font-weight:800;padding:2px 8px;border-radius:6px;text-transform:uppercase}
+.p{background:var(--okbg);color:var(--ok)}.r{background:var(--warnbg);color:var(--warn)}.d{background:var(--badbg);color:var(--bad)}.n{background:var(--infobg);color:var(--info)}
+@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;padding:0 0 10px}.stat{text-align:center;padding:26px 14px;border:1px solid var(--line);border-radius:18px;background:var(--cardbg);box-shadow:var(--shadow)}.stat b{display:block;font-size:42px;letter-spacing:-.03em}.stat span{color:var(--mute);font-size:14px}
+.kick{color:var(--kick);font-weight:700;font-size:13px;letter-spacing:.12em;text-transform:uppercase}h2{font-size:clamp(30px,4vw,44px);letter-spacing:-.03em;line-height:1.12;margin:10px 0 14px;font-weight:800}.sub{color:var(--mute);font-size:18px;max-width:620px}.center{text-align:center}.center .sub{margin:0 auto}
+.problem{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}.big{font-size:clamp(70px,10vw,120px);font-weight:800;letter-spacing:-.05em;line-height:1}.fn{font-size:12.5px;color:var(--mute);margin-top:14px}
+.bar3{display:flex;height:16px;border-radius:99px;overflow:hidden;margin:20px 0 10px}.bar3 i{display:block}.leg{display:flex;gap:18px;flex-wrap:wrap;color:var(--mute);font-size:13.5px}.leg b{color:var(--ink)}
+.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:34px 16px;margin-top:52px;position:relative}
+.step{position:relative;text-align:center;padding:0 6px}.step .num{width:60px;height:60px;border-radius:18px;margin:0 auto 16px;display:grid;place-items:center;background:var(--bg2);border:1px solid var(--line);color:var(--accent-ink);position:relative;box-shadow:0 0 0 6px var(--bg)}.step .num .ic{width:26px;height:26px}
+.step h3{margin:0 0 6px;font-size:16px}.step p{margin:0;color:var(--mute);font-size:13.5px}.tag{display:inline-block;margin-top:10px;font-size:11px;font-weight:700;padding:3px 10px;border-radius:99px;background:var(--panel);border:1px solid var(--line);color:var(--mute)}
+.bento{display:grid;grid-template-columns:repeat(6,1fr);gap:18px;margin-top:48px}.card{border:1px solid var(--line);border-radius:20px;padding:26px;background:var(--cardbg);box-shadow:var(--shadow);transition:.25s;position:relative;overflow:hidden}.card:hover{transform:translateY(-4px);border-color:rgba(165,180,252,.4)}
+.card .ico{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,rgba(99,102,241,.22),rgba(168,85,247,.22));color:var(--accent-ink);margin-bottom:16px}.card h3{margin:0 0 8px;font-size:18px}.card p{margin:0;color:var(--mute);font-size:14.5px}
+.s2{grid-column:span 2}.s3{grid-column:span 3}.s4{grid-column:span 4}.card code{font-size:12.5px;background:var(--bg2);border:1px solid var(--line);border-radius:10px;display:block;padding:12px;margin-top:14px;color:var(--accent-ink);white-space:pre;overflow:auto}
+.out{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:48px}.oc{border:1px solid var(--line);border-radius:20px;padding:22px;background:var(--cardbg);box-shadow:var(--shadow)}.oc .t{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.oc .score{font-weight:800;font-size:26px}.oc h4{margin:0 0 4px;font-size:16px}.oc small{color:var(--mute);display:block;margin-bottom:10px}.oc p{margin:0;color:var(--mute);font-size:14px}.oc .pl{font-size:12px;font-weight:800;padding:4px 12px;border-radius:99px}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:48px}.three .card{text-align:center}.three .ico{margin:0 auto 16px}.three h3{font-size:24px}
+.faq{max-width:780px;margin:44px auto 0}details{border:1px solid var(--line);border-radius:16px;background:var(--cardbg);margin-bottom:12px;padding:0 22px}summary{cursor:pointer;font-weight:700;padding:19px 0;list-style:none;display:flex;justify-content:space-between;gap:12px}summary::-webkit-details-marker{display:none}summary:after{content:"+";font-size:22px;color:var(--kick);transition:.2s}details[open] summary:after{transform:rotate(45deg)}details p{margin:0 0 20px;color:var(--mute)}
+.ctab{border-radius:28px;padding:64px 28px;text-align:center;background:radial-gradient(70% 120% at 50% 0%,rgba(168,85,247,.5),transparent 70%),linear-gradient(135deg,#312e81,#4c1d95);border:1px solid var(--line);position:relative;overflow:hidden}.ctab h2{max-width:640px;margin:0 auto 14px}.ctab p{color:#d4d8f7;max-width:520px;margin:0 auto 28px}
+footer{padding:50px 0;border-top:1px solid var(--line);color:var(--mute);font-size:13.5px}footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center}footer img{height:30px}
+.reveal{opacity:0;transform:translateY(26px);transition:.8s cubic-bezier(.2,.7,.2,1)}.reveal.in{opacity:1;transform:none}
+@media(max-width:900px){nav .links{display:none}.mbody,.problem{grid-template-columns:1fr}.msteps{border:0;border-bottom:1px solid var(--line)}.stats,.out{grid-template-columns:1fr 1fr}.flow{grid-template-columns:1fr 1fr}.bento,.three{grid-template-columns:1fr}.s2,.s3,.s4{grid-column:auto}section{padding:70px 0}nav .wrap{justify-content:space-between}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal,.st,.ban,.chk div{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+<symbol id="i-scan" viewBox="0 0 24 24"><path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2M7 12h10"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5z"/><path d="m9 12 2 2 4-4"/></symbol>
+<symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"/></symbol>
+<symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 1.8 4.7 4.7 1.8-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="m19 15 .8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+<symbol id="i-hist" viewBox="0 0 24 24"><path d="M12 8v4l3 2"/><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></symbol>
+<symbol id="i-user" viewBox="0 0 24 24"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></symbol>
+<symbol id="i-print" viewBox="0 0 24 24"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 14h12v8H6z"/></symbol>
+<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+<symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol>
+<symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2 3 14h9l-1 8 10-12h-9z"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+<symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 2 10 5-10 5L2 7z"/><path d="m2 17 10 5 10-5M2 12l10 5 10-5"/></symbol>
+</defs></svg>
+
+<nav class="top" id="nav"><div class="wrap">
+  <a href="/"><img class="lk lk-w" src="logo-lockup-white.svg" alt="SubmissionIQ"><img class="lk lk-d" src="logo-lockup-dark.svg" alt="SubmissionIQ"></a>
+  <div class="links"><a href="#problem">Problem</a><a href="#how">How it works</a><a href="#features">Features</a><a href="#results">Results</a><a href="#faq">FAQ</a></div>
+  <button class="tbtn" id="theme" title="Toggle light / dark theme" aria-label="Toggle theme"></button>
+  <a class="btn pri sm" href="/app">Launch app <svg class="ic"><use href="#i-arrow"/></svg></a>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <span class="pill"><i></i> Agentic AI for commercial property underwriting</span>
+  <h1>Broker submissions, <span class="grad">decision-ready</span> in seconds.</h1>
+  <p class="lead">Eight specialised agents read every document, score property risk, screen valuation and flood exposure, and explain the result. Rules decide. AI explains. Underwriters approve.</p>
+  <div class="cta"><a class="btn pri" href="/app">Launch the app <svg class="ic"><use href="#i-arrow"/></svg></a><a class="btn" href="#how">See how it works</a></div>
+  <div class="chips"><span>Broker emails</span><span>ACORD forms</span><span>Schedules of values</span><span>Loss runs</span><span>Scans &amp; OCR</span><span>Editable guidelines</span></div>
+
+  <div class="mock" aria-label="Product preview">
+    <div class="mbar"><i></i><i></i><i></i><span>submissioniq &middot; Carolina Retail Group (3 documents)</span></div>
+    <div class="mbody">
+      <div class="msteps">
+        <div class="st" style="--d:0.30s"><span class="ok"><svg class="ic"><use href="#i-check"/></svg></span><div><b>Document agent</b><small>Read 3 documents, 19 fields with page sources</small></div></div>
+        <div class="st" style="--d:0.75s"><span class="ok"><svg class="ic"><use href="#i-check"/></svg></span><div><b>Validation agent</b><small>100% complete, SOV total mismatch flagged</small></div></div>
+        <div class="st" style="--d:1.20s"><span class="ok"><svg class="ic"><use href="#i-check"/></svg></span><div><b>Location agent</b><small>FEMA flood zone X, retrieved today</small></div></div>
+        <div class="st" style="--d:1.65s"><span class="ok"><svg class="ic"><use href="#i-check"/></svg></span><div><b>Valuation agent</b><small>1 of 5 locations looks undervalued</small></div></div>
+        <div class="st" style="--d:2.10s"><span class="ok"><svg class="ic"><use href="#i-check"/></svg></span><div><b>Risk scoring agent</b><small>Property risk score 63 (Elevated)</small></div></div>
+        <div class="st" style="--d:2.55s"><span class="ok"><svg class="ic"><use href="#i-check"/></svg></span><div><b>Appetite agent</b><small>8 pass, 3 refer, 0 decline</small></div></div>
+        <div class="st" style="--d:3.00s"><span class="ok"><svg class="ic"><use href="#i-check"/></svg></span><div><b>Risk summary agent</b><small>Strengths, concerns, broker questions</small></div></div>
+        <div class="st" style="--d:3.45s"><span class="ok"><svg class="ic"><use href="#i-check"/></svg></span><div><b>Broker communication agent</b><small>Referral email drafted</small></div></div>
+      </div>
+      <div class="mres">
+        <div class="ban"><div><small>AI RECOMMENDATION</small><h4>Refer</h4><span style="font-size:13px;opacity:.9">Carolina Retail Group &middot; 5 locations</span></div><div class="sc2"><span>63</span></div></div>
+        <div class="chk">
+          <div style="animation-delay:4.3s"><em class="r">refer</em> TIV $23.3M exceeds authority &sect;3.1</div>
+          <div style="animation-delay:4.5s"><em class="r">refer</em> Pad B Restaurant undervalued &sect;9.1</div>
+          <div style="animation-delay:4.7s"><em class="r">refer</em> 5 losses, largest $126K wind claim &sect;6.1</div>
+          <div style="animation-delay:4.9s"><em class="p">pass</em> FEMA flood zone X, minimal hazard &sect;10</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></header>
+
+<section style="padding-top:60px"><div class="wrap"><div class="stats">
+  <div class="stat reveal"><b data-count="8">0</b><span>specialised agents</span></div>
+  <div class="stat reveal"><b data-count="8">0</b><span>risk factors in the property score</span></div>
+  <div class="stat reveal"><b data-count="11">0</b><span>guideline checks with references</span></div>
+  <div class="stat reveal"><b data-count="4">0</b><span>clear outcomes, always human-approved</span></div>
+</div></div></section>
+
+<section id="problem"><div class="wrap problem">
+  <div class="reveal"><span class="kick">The problem</span><h2>Underwriters spend most of their day <span class="grad">not underwriting</span>.</h2>
+    <p class="sub">Re-keying data, reading out-of-appetite risks and chasing missing information slow every quote and cost carriers good accounts.</p></div>
+  <div class="card reveal"><div class="big grad"><span data-count="40">0</span>%</div><p style="margin:6px 0 0;color:var(--mute)">of an average underwriter&rsquo;s time goes to administrative tasks</p>
+    <div class="bar3"><i style="width:40%;background:#f87171"></i><i style="width:30%;background:#fbbf24"></i><i style="width:30%;background:#34d399"></i></div>
+    <div class="leg"><span><b>40%</b> admin</span><span><b>30%</b> negotiation &amp; sales</span><span><b>30%</b> underwriting</span></div>
+    <p class="fn">Source: Accenture P&amp;C underwriting survey with The Institutes, as summarised by Insurance Thought Leadership.</p></div>
+</div></section>
+
+<section id="how"><div class="wrap center"><span class="kick">How it works</span><h2>Eight agents. One decision-ready file.</h2><p class="sub">Every step is logged to a live audit trail you can watch as it runs.</p>
+  <div class="flow">
+    <div class="step reveal"><div class="num"><svg class="ic"><use href="#i-scan"/></svg></div><h3>Document</h3><p>Reads emails, ACORD forms, PDFs, scans, SOVs and loss runs. Every value keeps its source page.</p><span class="tag">Rules</span></div>
+    <div class="step reveal"><div class="num"><svg class="ic"><use href="#i-check"/></svg></div><h3>Validation</h3><p>Scores completeness, flags conflicts between documents and low-confidence values.</p><span class="tag">Rules</span></div>
+    <div class="step reveal"><div class="num"><svg class="ic"><use href="#i-shield"/></svg></div><h3>Location</h3><p>Looks up FEMA flood zone for the address with source and date.</p><span class="tag">Official data</span></div>
+    <div class="step reveal"><div class="num"><svg class="ic"><use href="#i-layers"/></svg></div><h3>Valuation</h3><p>Screens declared value against an estimated replacement-cost range.</p><span class="tag">Rules</span></div>
+    <div class="step reveal"><div class="num"><svg class="ic"><use href="#i-bolt"/></svg></div><h3>Risk scoring</h3><p>Scores construction, age, fire protection, occupancy, losses and location.</p><span class="tag">Configurable rules</span></div>
+    <div class="step reveal"><div class="num"><svg class="ic"><use href="#i-sliders"/></svg></div><h3>Appetite</h3><p>Applies your guidelines and returns a recommendation with the rule behind it.</p><span class="tag">Rules</span></div>
+    <div class="step reveal"><div class="num"><svg class="ic"><use href="#i-spark"/></svg></div><h3>Risk summary</h3><p>Explains strengths, concerns and broker questions in plain language.</p><span class="tag">Fallback</span></div>
+    <div class="step reveal"><div class="num"><svg class="ic"><use href="#i-mail"/></svg></div><h3>Broker email</h3><p>Drafts the quote, referral, info-request or decline reply.</p><span class="tag">Fallback</span></div>
+  </div></div></section>
+
+<section id="principle"><div class="wrap center"><span class="kick">Our principle</span><h2>Rules decide. AI explains. <span class="grad">Humans approve.</span></h2>
+  <div class="three">
+    <div class="card reveal"><div class="ico"><svg class="ic"><use href="#i-sliders"/></svg></div><h3>Rules decide</h3><p>Outcomes come from deterministic, editable guidelines, so every result is reproducible and auditable.</p></div>
+    <div class="card reveal"><div class="ico"><svg class="ic"><use href="#i-spark"/></svg></div><h3>AI explains</h3><p>The LLM reads messy documents and writes clear summaries. It never changes an outcome.</p></div>
+    <div class="card reveal"><div class="ico"><svg class="ic"><use href="#i-user"/></svg></div><h3>Humans approve</h3><p>The underwriter makes the final call. Overrides need a written reason and are logged.</p></div>
+  </div></div></section>
+
+<section id="features"><div class="wrap"><div class="center"><span class="kick">Features</span><h2>Built for how underwriters actually work.</h2></div>
+  <div class="bento">
+    <div class="card s4 reveal"><div class="ico"><svg class="ic"><use href="#i-sliders"/></svg></div><h3>Your appetite and risk model, as configuration</h3><p>Change states, classes, authority limits, loss thresholds and risk-score points by editing JSON files. No code changes.</p><code>"limits": { "uw_authority_tiv": 10000000,
+            "max_tiv": 25000000 }</code></div>
+    <div class="card s2 reveal"><div class="ico"><svg class="ic"><use href="#i-hist"/></svg></div><h3>Audit-ready decisions</h3><p>Each recommendation shows its rule, evidence, guideline version, reviewer, approval time and override reason. Export it as one record.</p></div>
+    <div class="card s2 reveal"><div class="ico"><svg class="ic"><use href="#i-mail"/></svg></div><h3>Every value traced to its source</h3><p>See the document, page and quote behind each field, with a confidence indicator. Correct mistakes in one click.</p></div>
+    <div class="card s2 reveal"><div class="ico"><svg class="ic"><use href="#i-print"/></svg></div><h3>Valuation and flood screening</h3><p>Flags possible underinsurance and shows FEMA flood evidence with its source and date. Screening only, not a certified valuation.</p></div>
+    <div class="card s2 reveal"><div class="ico"><svg class="ic"><use href="#i-shield"/></svg></div><h3>Resilient by design</h3><p>If the LLM is down or rate-limited, each step falls back to offline logic.</p></div>
+    <div class="card s3 reveal"><div class="ico"><svg class="ic"><use href="#i-layers"/></svg></div><h3>Reads scans, SOVs and loss runs</h3><p>Handles multiple files per submission. AI reads scanned pages and images; spreadsheets are parsed directly and totals are reconciled.</p></div>
+    <div class="card s3 reveal"><div class="ico"><svg class="ic"><use href="#i-bolt"/></svg></div><h3>A queue that ranks itself</h3><p>Submissions are ordered by urgency, risk, missing information and waiting time, so managers see what needs a human first.</p></div>
+  </div></div></section>
+
+<section id="results"><div class="wrap center"><span class="kick">Live outcomes</span><h2>Four submissions, four different decisions.</h2><p class="sub">Synthetic broker emails from the built-in demo. The number is the property risk score (higher means riskier).</p>
+  <div class="out" style="text-align:left">
+    <div class="oc reveal"><div class="t"><span class="pl p">Quote</span><span class="score" title="Property risk score">23</span></div><h4>Lone Star Office Park</h4><small>Dallas, TX &middot; Office &middot; Low risk</small><p>Preferred class and $7.65M TIV within the $10M authority.</p></div>
+    <div class="oc reveal"><div class="t"><span class="pl n">Need Info</span><span class="score" title="Property risk score">54</span></div><h4>Riverside Bakery &amp; Cafe</h4><small>New Orleans, LA &middot; Bakery &middot; Elevated risk</small><p>59% complete. Year built, sprinklers, losses and effective date missing.</p></div>
+    <div class="oc reveal"><div class="t"><span class="pl r">Refer</span><span class="score" title="Property risk score">62</span></div><h4>Heartland Auto Repair</h4><small>Tulsa, OK &middot; Auto repair &middot; Elevated risk</small><p>Referral class. Every other guideline check passes.</p></div>
+    <div class="oc reveal"><div class="t"><span class="pl d">Decline</span><span class="score" title="Property risk score">88</span></div><h4>Pinecrest Pallet Works</h4><small>Tupelo, MS &middot; Pallets &middot; High risk</small><p>Prohibited class, unsprinklered frame, four losses including a $410K fire.</p></div>
+  </div></div></section>
+
+<section id="faq"><div class="wrap"><div class="center"><span class="kick">FAQ</span><h2>Questions, answered.</h2></div><div class="faq">
+  <details><summary>Does the AI make the underwriting decision?</summary><p>No. Recommendations come from deterministic guideline rules. The LLM extracts data and explains the result, and a human underwriter always makes the final decision.</p></details>
+  <details><summary>Which AI models does it use?</summary><p>Google AI by default. It reads scans and messy documents, writes the summary and drafts the email. Without a key it runs on the rules engine only. If a model call fails or is rate-limited, that step retries and then falls back to offline logic.</p></details>
+  <details><summary>Can it read scanned documents and spreadsheets?</summary><p>Yes. Scans and images are read with AI OCR (needs your key). Text PDFs, CSV and Excel schedules of values and loss runs are parsed directly. Every extracted value shows its source page and a confidence indicator, and reviewers can correct it.</p></details>
+  <details><summary>Is it connected to Guidewire or Duck Creek?</summary><p>Not yet. The prototype is standalone. Integration through an API layer is on the roadmap.</p></details>
+  <details><summary>Is the data real?</summary><p>No. The demo uses synthetic submissions. The guidelines, risk model and valuation benchmarks are illustrative defaults, not a real carrier&rsquo;s. Flood data comes from FEMA when the lookup is available.</p></details>
+  <details><summary>How is the time saving measured?</summary><p>The dashboard shows an estimate based on an assumed manual triage time. It is an assumption to be validated in a pilot, not a measured result.</p></details>
+</div></div></section>
+
+<section style="padding-top:20px"><div class="wrap"><div class="ctab reveal"><h2>See your next submission decision-ready.</h2><p>Open the app, load the demo submissions and watch the agents work.</p><a class="btn pri" href="/app">Launch the app <svg class="ic"><use href="#i-arrow"/></svg></a></div></div></section>
+
+<footer><div class="wrap"><div><img class="lk-w" src="logo-lockup-white.svg" alt="SubmissionIQ"><img class="lk-d" src="logo-lockup-dark.svg" alt="SubmissionIQ"><div style="margin-top:10px">Prototype built for the Flarre AI Innovation Challenge 2026.</div></div>
+  <div>Decision support only: a human underwriter makes every final decision.<br>Demo uses synthetic data.</div></div></footer>
+
+<script>
+const tb=document.getElementById('theme');function setTheme(t){document.documentElement.dataset.theme=t;try{localStorage.setItem('siq-theme',t)}catch(e){}tb.innerHTML='<svg class="ic"><use href="#i-'+(t==='dark'?'sun':'moon')+'"/></svg>'}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');setTheme(document.documentElement.dataset.theme||'dark');
+const nav=document.getElementById('nav');addEventListener('scroll',()=>nav.classList.toggle('sc',scrollY>20),{passive:true});
+function count(el){const to=+el.dataset.count,suf=el.dataset.suf||'';let t0;const f=ts=>{t0=t0||ts;const p=Math.min(1,(ts-t0)/1300);el.textContent=Math.round(to*(1-Math.pow(1-p,3)))+suf;if(p<1)requestAnimationFrame(f)};requestAnimationFrame(f)}
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;e.target.classList.add('in');e.target.querySelectorAll('[data-count]').forEach(count);io.unobserve(e.target)}),{threshold:.2});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>

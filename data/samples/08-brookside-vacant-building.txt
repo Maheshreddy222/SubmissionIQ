@@ -1,0 +1,22 @@
+From: Gil Mercer <gil@plainsagency.example>
+Subject: Brookside Holdings - former furniture showroom - Wichita KS
+
+Hi - owner is looking for property-only coverage while he markets the building. Details:
+
+NAMED INSURED: Brookside Holdings LLC
+LOCATION: 4410 W Kellogg Dr, Wichita, KS 67209
+CLASS / OCCUPANCY: Vacant building (former furniture showroom), listed for sale or lease
+YEARS IN BUSINESS: 15
+CONSTRUCTION: Masonry non-combustible
+YEAR BUILT: 1978
+STORIES: 1
+SQUARE FOOTAGE: 24,000
+SPRINKLERED: No
+PROTECTION CLASS: 4
+BUILDING VALUE: $1,600,000
+CONTENTS VALUE: $0
+BUSINESS INCOME: $0
+EFFECTIVE DATE: {{date+9}}
+PRIOR CARRIER: Prairie State Mutual
+
+No losses reported. Vacant since March 2025.

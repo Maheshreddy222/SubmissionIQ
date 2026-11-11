@@ -1,0 +1,26 @@
+From: Rob Kessler <rob@sunstatebrokers.example>
+Subject: RFQ - Palm Harbor Suites (hotel) - Clearwater FL
+
+ACORD 140 - PROPERTY SECTION (summary pasted from our agency system)
+
+NAME OF INSURED: Palm Harbor Suites LLC
+PREMISES ADDRESS: 1450 Gulf Blvd, Clearwater, FL 33767
+DESCRIPTION OF OPERATIONS: Limited-service hotel, 96 rooms
+YEARS IN BUSINESS: 8
+ANNUAL REVENUE: $7,800,000
+EMPLOYEES: 45
+CONSTRUCTION TYPE: Masonry non-combustible
+YEAR BUILT: 2004
+NO. OF STORIES: 4
+TOTAL AREA (SQ FT): 61,000
+SPRINKLERED (Y/N): Y
+PROTECTION CLASS: 3
+BUILDING AMOUNT: $14,200,000
+CONTENTS AMOUNT: $1,900,000
+BUSINESS INCOME AMOUNT: $2,600,000
+PROPOSED EFF DATE: {{date+60}}
+PRIOR CARRIER: Coastline Property Assurance
+
+LOSS HISTORY:
+2023 | Wind damage - roof membrane | $188,000 | Closed
+2025 | Water intrusion, guest rooms | $64,000 | Closed

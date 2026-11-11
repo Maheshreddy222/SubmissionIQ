@@ -1,0 +1,29 @@
+From: Dana Whitfield <dana@whitfieldrisk.example>
+Subject: New Submission - Lone Star Office Park LLC - Commercial Property
+
+Hi team, please find our new business submission below for 1/1 effective. Happy to send the full SOV and loss runs on request.
+
+NAMED INSURED: Lone Star Office Park LLC
+LOCATION: 4100 N Central Expy, Dallas, TX 75204
+CLASS / OCCUPANCY: Office building (lessor's risk only)
+YEARS IN BUSINESS: 14
+ANNUAL REVENUE: $3,900,000
+EMPLOYEES: 6
+CONSTRUCTION: Masonry non-combustible
+YEAR BUILT: 2008
+STORIES: 3
+SQUARE FOOTAGE: 42,000
+SPRINKLERED: Yes - wet pipe, full coverage
+PROTECTION CLASS: 2
+BUILDING VALUE: $6,800,000
+CONTENTS VALUE: $350,000
+BUSINESS INCOME: $500,000
+EFFECTIVE DATE: {{date+45}}
+PRIOR CARRIER: Hartwell Insurance Group
+COVERAGES REQUESTED: Building, Contents, Business Income, Equipment Breakdown
+
+LOSS HISTORY (last 5 years):
+2024 | Water damage - pipe burst, suite 210 | $38,500 | Closed
+
+Thanks,
+Dana Whitfield | Whitfield Risk Advisors

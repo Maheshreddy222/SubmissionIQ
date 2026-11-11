@@ -1,0 +1,27 @@
+From: Dwayne Collins <dwayne@deltaprofessional.example>
+Subject: Magnolia Plaza - retail strip center - Jackson MS
+
+Hi, six-tenant strip center, owner holds for the long term. Several small claims over the years, nothing large. Details below.
+
+NAMED INSURED: Magnolia Plaza Partners LLC
+LOCATION: 2860 Terry Rd, Jackson, MS 39212
+CLASS / OCCUPANCY: Retail strip center, 6 tenants
+YEARS IN BUSINESS: 18
+CONSTRUCTION: Joisted masonry
+YEAR BUILT: 1992
+STORIES: 1
+SQUARE FOOTAGE: 31,000
+SPRINKLERED: No
+PROTECTION CLASS: 4
+BUILDING VALUE: $3,300,000
+CONTENTS VALUE: $120,000
+RENTAL INCOME: $540,000
+EFFECTIVE DATE: {{date+33}}
+PRIOR CARRIER: Magnolia Casualty
+
+LOSS HISTORY:
+2021 - Vandalism and break-in - $8,200 - closed
+2022 - Hail damage, roof - $41,000 - closed
+2023 - Water leak, tenant unit 4 - $12,500 - closed
+2024 - Parking lot light pole collision - $6,800 - closed
+2025 - Storm damage, signage - $23,400 - closed

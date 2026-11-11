@@ -1,0 +1,25 @@
+{
+  "name": "submissioniq",
+  "version": "1.0.0",
+  "description": "SubmissionIQ - agentic AI underwriting submission copilot for commercial property insurance",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/smoke.js && node test/integration.js",
+    "test:offline": "node test/smoke.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "multer": "^2.5.0",
+    "pdf-parse": "^1.1.1",
+    "xlsx": "^0.18.5"
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^13.0.3"
+  }
+}
